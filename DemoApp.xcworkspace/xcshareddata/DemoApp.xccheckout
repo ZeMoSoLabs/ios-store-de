@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E646A63A-EEEB-44B4-B48E-D71108CE4657</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DemoApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68015D5A5D8C34EB55FBD44A3026C02D869F1A4A</key>
+		<string>https://github.com/ZeMoSoLabs/ZeTarget-Demo-ios.git</string>
+		<key>CADE98B77D383FB1559A2D9C0318E475B6469F19</key>
+		<string>https://github.com/ZeMoSoLabs/z-iOS-SDK.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DemoApp.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68015D5A5D8C34EB55FBD44A3026C02D869F1A4A</key>
+		<string>..</string>
+		<key>CADE98B77D383FB1559A2D9C0318E475B6469F19</key>
+		<string>../../z-iOS-SDK</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ZeMoSoLabs/ZeTarget-Demo-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68015D5A5D8C34EB55FBD44A3026C02D869F1A4A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68015D5A5D8C34EB55FBD44A3026C02D869F1A4A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DemoApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CADE98B77D383FB1559A2D9C0318E475B6469F19</string>
+			<key>IDESourceControlWCCName</key>
+			<string>z-iOS-SDK</string>
+		</dict>
+	</array>
+</dict>
+</plist>

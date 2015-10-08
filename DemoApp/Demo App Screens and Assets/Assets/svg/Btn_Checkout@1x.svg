@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="148px" height="149px" viewBox="0 0 148 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Btn_Checkout@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="35.7871895%" x2="50%" y2="89.9647887%" id="linearGradient-1">
+            <stop stop-color="#E4E4E4" offset="9.19563138%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="94.7644292%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="65.0253081%" id="linearGradient-2">
+            <stop stop-color="#939393" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="-3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0728175951 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.105 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D9D9D9" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.242626245 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.7 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Bag-items-Copy-2" sketch:type="MSArtboardGroup" transform="translate(-37.000000, -273.000000)">
+            <g id="Btn_Checkout" sketch:type="MSLayerGroup" transform="translate(40.000000, 279.000000)">
+                <circle id="Oval-9" stroke="url(#linearGradient-2)" fill-opacity="0.8" fill="url(#linearGradient-1)" filter="url(#filter-3)" sketch:type="MSShapeGroup" cx="71" cy="71" r="71"></circle>
+                <circle id="Oval-8" fill="url(#linearGradient-4)" filter="url(#filter-5)" sketch:type="MSShapeGroup" cx="71" cy="71" r="62"></circle>
+                <g id="Rectangle-7-+-Oval-6-+-Oval-7-+-Path-15" transform="translate(45.000000, 45.000000)" sketch:type="MSShapeGroup">
+                    <path d="M5.25384842,12.7903912 C5.56318591,10.5995539 7.61325202,8.82352941 9.81184856,8.82352941 L40.1881514,8.82352941 C42.3961279,8.82352941 44.4358648,10.5928309 44.7461516,12.7903912 L49.4398949,46.0331382 C49.7492324,48.2239755 48.2057317,50 45.9928103,50 L4.00718972,50 C1.79407995,50 0.249818314,48.2306985 0.560105073,46.0331382 L5.25384842,12.7903912 Z" id="Rectangle-7" stroke="#454545" stroke-width="3"></path>
+                    <path d="M10.8762974,16.8934403 C11.0308293,15.7989911 12.0552746,14.9117647 13.1556145,14.9117647 L36.6514832,14.9117647 C37.7557833,14.9117647 38.7756724,15.7947705 38.9308002,16.8934403 L42.5370837,42.4344132 C42.6916156,43.5288624 41.9312802,44.4160888 40.8139224,44.4160888 L8.99317529,44.4160888 C7.88696766,44.4160888 7.1148861,43.533083 7.27001389,42.4344132 L10.8762974,16.8934403 Z" id="Rectangle-9" stroke="#454545" stroke-width="3" fill="#454545"></path>
+                    <g id="Oval-6-+-Oval-7-+-Path-15" transform="translate(15.697674, 0.000000)">
+                        <ellipse id="Oval-6" fill="#454545" cx="1.45348837" cy="15" rx="1.45348837" ry="1.47058824"></ellipse>
+                        <ellipse id="Oval-7" fill="#454545" cx="16.5697674" cy="15" rx="1.45348837" ry="1.47058824"></ellipse>
+                        <path d="M1.20878644,15.5036171 L1.20878644,9.88467992 C1.20878644,9.88467992 0.390903082,0.0293388682 9.18362451,0.0293388615 C17.9763459,0.0293388549 16.7085315,9.47268943 16.7085315,9.47268943 L16.7085315,15.0399427" id="Path-15" stroke="#454545" stroke-width="3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
