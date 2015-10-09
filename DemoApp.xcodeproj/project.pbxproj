@@ -98,11 +98,11 @@
 		93280B0A1B4654E0002FC789 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93280AFD1B4654E0002FC789 /* iTunesArtwork@2x.png */; };
 		93280B0B1B4654E0002FC789 /* iTunesArtwork@2x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93280AFE1B4654E0002FC789 /* iTunesArtwork@2x@2x.png */; };
 		93280B0C1B4654E0002FC789 /* iTunesArtwork@2x@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93280AFF1B4654E0002FC789 /* iTunesArtwork@2x@3x.png */; };
-		937E07B21BC6923200DA9D5F /* HorizontalInAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937E07AC1BC6923200DA9D5F /* HorizontalInAppViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		937E07B31BC6923200DA9D5F /* InfoInAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937E07AD1BC6923200DA9D5F /* InfoInAppViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		937E07B41BC6923200DA9D5F /* RatingInAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937E07AE1BC6923200DA9D5F /* RatingInAppViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		937E07B51BC6923200DA9D5F /* VerticalInAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937E07AF1BC6923200DA9D5F /* VerticalInAppViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		937E07B61BC6923200DA9D5F /* libZeTarget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E07B11BC6923200DA9D5F /* libZeTarget.a */; settings = {ASSET_TAGS = (); }; };
+		937E07C01BC7924A00DA9D5F /* HorizontalInAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937E07BA1BC7924A00DA9D5F /* HorizontalInAppViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		937E07C11BC7924A00DA9D5F /* InfoInAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937E07BB1BC7924A00DA9D5F /* InfoInAppViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		937E07C21BC7924A00DA9D5F /* RatingInAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937E07BC1BC7924A00DA9D5F /* RatingInAppViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		937E07C31BC7924A00DA9D5F /* VerticalInAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937E07BD1BC7924A00DA9D5F /* VerticalInAppViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		937E07C41BC7924A00DA9D5F /* libzetarget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E07BF1BC7924A00DA9D5F /* libzetarget.a */; settings = {ASSET_TAGS = (); }; };
 		BF76E7BA446B1F97CC78F582 /* libPods-DemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFA661F45A6117BCC532339 /* libPods-DemoApp.a */; };
 /* End PBXBuildFile section */
 
@@ -219,12 +219,12 @@
 		93280AFD1B4654E0002FC789 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		93280AFE1B4654E0002FC789 /* iTunesArtwork@2x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x@2x.png"; sourceTree = "<group>"; };
 		93280AFF1B4654E0002FC789 /* iTunesArtwork@2x@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x@3x.png"; sourceTree = "<group>"; };
-		937E07AC1BC6923200DA9D5F /* HorizontalInAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalInAppViewController.xib; sourceTree = "<group>"; };
-		937E07AD1BC6923200DA9D5F /* InfoInAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoInAppViewController.xib; sourceTree = "<group>"; };
-		937E07AE1BC6923200DA9D5F /* RatingInAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingInAppViewController.xib; sourceTree = "<group>"; };
-		937E07AF1BC6923200DA9D5F /* VerticalInAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerticalInAppViewController.xib; sourceTree = "<group>"; };
-		937E07B01BC6923200DA9D5F /* ZeTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZeTarget.h; sourceTree = "<group>"; };
-		937E07B11BC6923200DA9D5F /* libZeTarget.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libZeTarget.a; sourceTree = "<group>"; };
+		937E07BA1BC7924A00DA9D5F /* HorizontalInAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalInAppViewController.xib; sourceTree = "<group>"; };
+		937E07BB1BC7924A00DA9D5F /* InfoInAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoInAppViewController.xib; sourceTree = "<group>"; };
+		937E07BC1BC7924A00DA9D5F /* RatingInAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingInAppViewController.xib; sourceTree = "<group>"; };
+		937E07BD1BC7924A00DA9D5F /* VerticalInAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerticalInAppViewController.xib; sourceTree = "<group>"; };
+		937E07BE1BC7924A00DA9D5F /* ZeTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZeTarget.h; sourceTree = "<group>"; };
+		937E07BF1BC7924A00DA9D5F /* libzetarget.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzetarget.a; sourceTree = "<group>"; };
 		ACFA661F45A6117BCC532339 /* libPods-DemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -234,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93280ADD1B450924002FC789 /* CoreLocation.framework in Frameworks */,
-				937E07B61BC6923200DA9D5F /* libZeTarget.a in Frameworks */,
+				937E07C41BC7924A00DA9D5F /* libzetarget.a in Frameworks */,
 				93280ADB1B45091B002FC789 /* libsqlite3.dylib in Frameworks */,
 				BF76E7BA446B1F97CC78F582 /* libPods-DemoApp.a in Frameworks */,
 			);
@@ -282,7 +282,7 @@
 		931754751B4252170041DDCE /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				937E07A91BC6923200DA9D5F /* zeTargetRelease */,
+				937E07B71BC7924A00DA9D5F /* Zetarget Release */,
 				9317547A1B4252170041DDCE /* AppDelegate.h */,
 				9317547B1B4252170041DDCE /* AppDelegate.m */,
 				931756001B42CAD40041DDCE /* ProfileViewController.h */,
@@ -490,31 +490,31 @@
 			path = "../../../../../Downloads/App icon IOS";
 			sourceTree = "<group>";
 		};
-		937E07A91BC6923200DA9D5F /* zeTargetRelease */ = {
+		937E07B71BC7924A00DA9D5F /* Zetarget Release */ = {
 			isa = PBXGroup;
 			children = (
-				937E07AA1BC6923200DA9D5F /* include */,
-				937E07B11BC6923200DA9D5F /* libZeTarget.a */,
+				937E07B81BC7924A00DA9D5F /* include */,
+				937E07BF1BC7924A00DA9D5F /* libzetarget.a */,
 			);
-			path = zeTargetRelease;
+			path = "Zetarget Release";
 			sourceTree = "<group>";
 		};
-		937E07AA1BC6923200DA9D5F /* include */ = {
+		937E07B81BC7924A00DA9D5F /* include */ = {
 			isa = PBXGroup;
 			children = (
-				937E07AB1BC6923200DA9D5F /* ZeTarget */,
+				937E07B91BC7924A00DA9D5F /* ZeTarget */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		937E07AB1BC6923200DA9D5F /* ZeTarget */ = {
+		937E07B91BC7924A00DA9D5F /* ZeTarget */ = {
 			isa = PBXGroup;
 			children = (
-				937E07AC1BC6923200DA9D5F /* HorizontalInAppViewController.xib */,
-				937E07AD1BC6923200DA9D5F /* InfoInAppViewController.xib */,
-				937E07AE1BC6923200DA9D5F /* RatingInAppViewController.xib */,
-				937E07AF1BC6923200DA9D5F /* VerticalInAppViewController.xib */,
-				937E07B01BC6923200DA9D5F /* ZeTarget.h */,
+				937E07BA1BC7924A00DA9D5F /* HorizontalInAppViewController.xib */,
+				937E07BB1BC7924A00DA9D5F /* InfoInAppViewController.xib */,
+				937E07BC1BC7924A00DA9D5F /* RatingInAppViewController.xib */,
+				937E07BD1BC7924A00DA9D5F /* VerticalInAppViewController.xib */,
+				937E07BE1BC7924A00DA9D5F /* ZeTarget.h */,
 			);
 			path = ZeTarget;
 			sourceTree = "<group>";
@@ -649,7 +649,7 @@
 				9317556A1B4253600041DDCE /* Btn_select_Paypal.png in Resources */,
 				931755771B4253600041DDCE /* Btn_Decrease@2x.png in Resources */,
 				931755641B4253600041DDCE /* Img_Steal_like_an_artist_book@0.5x.png in Resources */,
-				937E07B51BC6923200DA9D5F /* VerticalInAppViewController.xib in Resources */,
+				937E07C31BC7924A00DA9D5F /* VerticalInAppViewController.xib in Resources */,
 				931754821B4252170041DDCE /* Main.storyboard in Resources */,
 				931755831B4253600041DDCE /* Logo@2x.png in Resources */,
 				93280B091B4654E0002FC789 /* Icon-76@3x.png in Resources */,
@@ -675,7 +675,7 @@
 				93280AEC1B450CD2002FC789 /* Splash Screen@3x.png in Resources */,
 				931755721B4253600041DDCE /* Img_Nikon_Cam.png in Resources */,
 				9317556D1B4253600041DDCE /* Icn_Selected_Level.png in Resources */,
-				937E07B21BC6923200DA9D5F /* HorizontalInAppViewController.xib in Resources */,
+				937E07C01BC7924A00DA9D5F /* HorizontalInAppViewController.xib in Resources */,
 				9317555A1B4253600041DDCE /* Btn_Increase@0.5x.png in Resources */,
 				931754871B4252170041DDCE /* LaunchScreen.xib in Resources */,
 				9317557B1B4253600041DDCE /* Icn_More@2x.png in Resources */,
@@ -683,13 +683,13 @@
 				931755661B4253600041DDCE /* Bg_Coming Soon.png in Resources */,
 				9317555F1B4253600041DDCE /* Icn_Shop@0.5x.png in Resources */,
 				93280B001B4654E0002FC789 /* Icon-29.png in Resources */,
-				937E07B41BC6923200DA9D5F /* RatingInAppViewController.xib in Resources */,
+				937E07C21BC7924A00DA9D5F /* RatingInAppViewController.xib in Resources */,
 				931755871B4253600041DDCE /* Btn_Increase@3x.png in Resources */,
 				9317555D1B4253600041DDCE /* Icn_More@0.5x.png in Resources */,
 				93280B081B4654E0002FC789 /* Icon-76@2x.png in Resources */,
 				93280AE71B450CD2002FC789 /* Coming Soon.png in Resources */,
 				931755781B4253600041DDCE /* Btn_Increase@2x.png in Resources */,
-				937E07B31BC6923200DA9D5F /* InfoInAppViewController.xib in Resources */,
+				937E07C11BC7924A00DA9D5F /* InfoInAppViewController.xib in Resources */,
 				931755861B4253600041DDCE /* Btn_Decrease@3x.png in Resources */,
 				93280AEB1B450CD2002FC789 /* Coming Soon@3x.png in Resources */,
 				931755631B4253600041DDCE /* Img_Nikon_Cam@0.5x.png in Resources */,
@@ -890,6 +890,8 @@
 					"$(inherited)",
 					/Users/zemoso/Desktop/zeTargetRelease,
 					"$(PROJECT_DIR)/DemoApp/zeTargetRelease",
+					"$(PROJECT_DIR)/DemoApp/Zetarget",
+					Release,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -909,6 +911,8 @@
 					"$(inherited)",
 					/Users/zemoso/Desktop/zeTargetRelease,
 					"$(PROJECT_DIR)/DemoApp/zeTargetRelease",
+					"$(PROJECT_DIR)/DemoApp/Zetarget",
+					Release,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
