@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3523663E89C720B5C18D51200BFF121D36C43AA8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CADE98B77D383FB1559A2D9C0318E475B6469F19" : 0,
+    "68015D5A5D8C34EB55FBD44A3026C02D869F1A4A" : 0,
+    "3523663E89C720B5C18D51200BFF121D36C43AA8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E646A63A-EEEB-44B4-B48E-D71108CE4657",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CADE98B77D383FB1559A2D9C0318E475B6469F19" : "z-iOS-SDK",
+    "68015D5A5D8C34EB55FBD44A3026C02D869F1A4A" : "DemoApp",
+    "3523663E89C720B5C18D51200BFF121D36C43AA8" : "ios-store-de\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DemoApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DemoApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZeMoSoLabs\/ios-store-de",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3523663E89C720B5C18D51200BFF121D36C43AA8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZeMoSoLabs\/ZeTarget-Demo-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "68015D5A5D8C34EB55FBD44A3026C02D869F1A4A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZeMoSoLabs\/z-iOS-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CADE98B77D383FB1559A2D9C0318E475B6469F19"
+    }
+  ]
+}

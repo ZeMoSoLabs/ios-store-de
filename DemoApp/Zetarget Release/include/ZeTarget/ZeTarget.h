@@ -1,7 +1,7 @@
 //
 //  ZeTarget.h
 //  
-//
+//  Version:1.0
 //  Created by Zemoso on 20/01/15.
 //  Copyright (c) 2015 Zemoso. All rights reserved.
 //
