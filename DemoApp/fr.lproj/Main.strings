@@ -1,0 +1,183 @@
+
+/* Class = "UILabel"; text = "More"; ObjectID = "02q-8A-YpW"; */
+"02q-8A-YpW.text" = "More";
+
+/* Class = "UILabel"; text = "Shop"; ObjectID = "0ZH-zl-uyv"; */
+"0ZH-zl-uyv.text" = "Shop";
+
+/* Class = "UILabel"; text = "Enter your debit or credit card details."; ObjectID = "3Wc-tj-agm"; */
+"3Wc-tj-agm.text" = "Enter your debit or credit card details.";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4MM-pF-pG0"; */
+"4MM-pF-pG0.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "CARD DETAILS"; ObjectID = "4Se-iI-skr"; */
+"4Se-iI-skr.text" = "CARD DETAILS";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "4oD-uk-nA7"; */
+"4oD-uk-nA7.text" = "Total";
+
+/* Class = "UILabel"; text = "01"; ObjectID = "5ae-M6-Xz8"; */
+"5ae-M6-Xz8.text" = "01";
+
+/* Class = "UILabel"; text = "Last Name"; ObjectID = "8C6-Bb-lHk"; */
+"8C6-Bb-lHk.text" = "Last Name";
+
+/* Class = "UITextField"; text = "Male"; ObjectID = "AQm-10-7X1"; */
+"AQm-10-7X1.text" = "Male";
+
+/* Class = "UILabel"; text = "Qty"; ObjectID = "Axn-zr-msy"; */
+"Axn-zr-msy.text" = "Qty";
+
+/* Class = "UITextField"; text = "Doe"; ObjectID = "Cg1-34-dWz"; */
+"Cg1-34-dWz.text" = "Doe";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "Cjf-RN-QMI"; */
+"Cjf-RN-QMI.text" = "$0.00";
+
+/* Class = "UITextField"; text = "123"; ObjectID = "G9v-PF-wuI"; */
+"G9v-PF-wuI.text" = "123";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IHT-D6-J74"; */
+"IHT-D6-J74.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "JPR-FB-RLR"; */
+"JPR-FB-RLR.text" = "Profile";
+
+/* Class = "UITextField"; text = "Westfield San Francisco Centre"; ObjectID = "Jg3-tx-UML"; */
+"Jg3-tx-UML.text" = "Westfield San Francisco Centre";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "Ku0-WG-sEv"; */
+"Ku0-WG-sEv.text" = "Gender";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "Mzz-rd-Cdn"; */
+"Mzz-rd-Cdn.text" = "$0.00";
+
+/* Class = "UILabel"; text = "Card No:"; ObjectID = "NCY-bt-bi1"; */
+"NCY-bt-bi1.text" = "Card No:";
+
+/* Class = "UITextField"; text = "4561 4939 7322 3821"; ObjectID = "NDh-UK-rug"; */
+"NDh-UK-rug.text" = "4561 4939 7322 3821";
+
+/* Class = "UILabel"; text = "NIKON COOLPIX…"; ObjectID = "NbO-zp-sJI"; */
+"NbO-zp-sJI.text" = "NIKON COOLPIX…";
+
+/* Class = "UITextField"; text = "20/08/1986"; ObjectID = "Ns9-KZ-bce"; */
+"Ns9-KZ-bce.text" = "20/08/1986";
+
+/* Class = "UILabel"; text = "$60.50"; ObjectID = "PE2-90-LG2"; */
+"PE2-90-LG2.text" = "$60.50";
+
+/* Class = "UILabel"; text = "Expiry:"; ObjectID = "Pjj-43-8mq"; */
+"Pjj-43-8mq.text" = "Expiry:";
+
+/* Class = "UILabel"; text = "01"; ObjectID = "R4P-qg-lie"; */
+"R4P-qg-lie.text" = "01";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RNQ-zn-Qe5"; */
+"RNQ-zn-Qe5.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RYI-6x-Alr"; */
+"RYI-6x-Alr.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SVE-Nv-XXw"; */
+"SVE-Nv-XXw.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Qty"; ObjectID = "St2-Ks-wdh"; */
+"St2-Ks-wdh.text" = "Qty";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TYP-LT-Pjg"; */
+"TYP-LT-Pjg.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "STEAL LIKE AN…"; ObjectID = "Uek-SJ-fB3"; */
+"Uek-SJ-fB3.text" = "STEAL LIKE AN…";
+
+/* Class = "UITextField"; text = "John"; ObjectID = "WAf-MJ-zHL"; */
+"WAf-MJ-zHL.text" = "John";
+
+/* Class = "UILabel"; text = "More"; ObjectID = "WZG-XK-xoS"; */
+"WZG-XK-xoS.text" = "More";
+
+/* Class = "UILabel"; text = "SHIP TO"; ObjectID = "Z1J-4W-7mH"; */
+"Z1J-4W-7mH.text" = "SHIP TO";
+
+/* Class = "UILabel"; text = "Shipping"; ObjectID = "Z73-wl-U4Z"; */
+"Z73-wl-U4Z.text" = "Shipping";
+
+/* Class = "UILabel"; text = "COMPLETE"; ObjectID = "bDY-IL-wRV"; */
+"bDY-IL-wRV.text" = "COMPLETE";
+
+/* Class = "UILabel"; text = "$20.00"; ObjectID = "bu9-Ff-4sg"; */
+"bu9-Ff-4sg.text" = "$20.00";
+
+/* Class = "UILabel"; text = "01"; ObjectID = "bul-kz-fTM"; */
+"bul-kz-fTM.text" = "01";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cMG-sl-Xf0"; */
+"cMG-sl-Xf0.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "First Name"; ObjectID = "cOu-nO-3lP"; */
+"cOu-nO-3lP.text" = "First Name";
+
+/* Class = "UITextField"; placeholder = "Registered email"; ObjectID = "cag-wT-Xqc"; */
+"cag-wT-Xqc.placeholder" = "Registered email";
+
+/* Class = "UILabel"; text = "Subtotal"; ObjectID = "dKr-Uh-3f8"; */
+"dKr-Uh-3f8.text" = "Subtotal";
+
+/* Class = "UILabel"; text = "$699.99"; ObjectID = "dek-o8-6rS"; */
+"dek-o8-6rS.text" = "$699.99";
+
+/* Class = "UILabel"; text = "PAYMENT"; ObjectID = "eIA-R1-o6j"; */
+"eIA-R1-o6j.text" = "PAYMENT";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "hHG-zk-0FF"; */
+"hHG-zk-0FF.text" = "$0";
+
+/* Class = "UITextField"; text = "12/15"; ObjectID = "hvC-SX-bT2"; */
+"hvC-SX-bT2.text" = "12/15";
+
+/* Class = "UIButton"; normalTitle = "PAY NOW"; ObjectID = "laT-8T-HCn"; */
+"laT-8T-HCn.normalTitle" = "PAY NOW";
+
+/* Class = "UITextField"; text = "SAN FRANCISCO, CALIFORNIA, USA"; ObjectID = "lsW-jg-AEl"; */
+"lsW-jg-AEl.text" = "SAN FRANCISCO, CALIFORNIA, USA";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lwU-Co-4ff"; */
+"lwU-Co-4ff.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "$645.99"; ObjectID = "mEA-VZ-n3N"; */
+"mEA-VZ-n3N.text" = "$645.99";
+
+/* Class = "UILabel"; text = "$121.90"; ObjectID = "mN5-nV-hKZ"; */
+"mN5-nV-hKZ.text" = "$121.90";
+
+/* Class = "UILabel"; text = "CVC Code:"; ObjectID = "qIJ-iR-vEk"; */
+"qIJ-iR-vEk.text" = "CVC Code:";
+
+/* Class = "UILabel"; text = "Qty"; ObjectID = "qQe-TJ-imn"; */
+"qQe-TJ-imn.text" = "Qty";
+
+/* Class = "UILabel"; text = "ADDRESS"; ObjectID = "rbX-sP-hKk"; */
+"rbX-sP-hKk.text" = "ADDRESS";
+
+/* Class = "UILabel"; text = "DOB"; ObjectID = "sd6-g0-irV"; */
+"sd6-g0-irV.text" = "DOB";
+
+/* Class = "UILabel"; text = "$15.50"; ObjectID = "shH-C2-HYx"; */
+"shH-C2-HYx.text" = "$15.50";
+
+/* Class = "UITextField"; text = "845 Market Street"; ObjectID = "sq3-FQ-ouH"; */
+"sq3-FQ-ouH.text" = "845 Market Street";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "syA-a0-bWC"; */
+"syA-a0-bWC.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "urQ-i3-LmB"; */
+"urQ-i3-LmB.normalTitle" = "CONTINUE";
+
+/* Class = "UILabel"; text = "Shop"; ObjectID = "xw1-Xv-YXN"; */
+"xw1-Xv-YXN.text" = "Shop";
+
+/* Class = "UILabel"; text = "APPLE IPHONE 6"; ObjectID = "yfj-ZT-Xcl"; */
+"yfj-ZT-Xcl.text" = "APPLE IPHONE 6";

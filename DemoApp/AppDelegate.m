@@ -22,6 +22,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     // Replace your api key with "ZemosoL" to get started
+    [ZeTarget setZetargetUrl:@"http://devapi.zetarget.com"];
     [ZeTarget instantiateAPIWithKey:@"ZemosoL"];
     [[NSUserDefaults standardUserDefaults] setObject:@"not Purchase" forKey:@"purchase"];
 //
