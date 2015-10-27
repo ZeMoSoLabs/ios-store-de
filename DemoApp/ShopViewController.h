@@ -11,6 +11,15 @@
 @interface ShopViewController : UIViewController<UITextFieldDelegate>
 
 @property (strong, nonatomic) IBOutlet UILabel *iphoneQty;
+@property (strong, nonatomic) IBOutlet UILabel *iphoneDescLabel;
+@property (strong, nonatomic) IBOutlet UILabel *bookDescLabel;
+@property (strong, nonatomic) IBOutlet UILabel *nikonDescLabel;
+@property (strong, nonatomic) IBOutlet UILabel *subTotalLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *shipLabel;
+@property (strong, nonatomic) IBOutlet UILabel *totLabel;
+@property (strong, nonatomic) IBOutlet UILabel *shopButtonLabel;
+@property (strong, nonatomic) IBOutlet UILabel *moreButtonLabel;
 
 @property (strong, nonatomic) IBOutlet UILabel *stealLikeBookQty;
 

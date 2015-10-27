@@ -7,7 +7,7 @@
 //
 
 #import "ProfileViewController.h"
-
+#import "ZeTarget.h"
 @interface ProfileViewController ()
 
 @end
@@ -22,6 +22,7 @@
     _text3.delegate=self;
     _text4.delegate=self;
     
+    
     _textField.text=[[NSUserDefaults standardUserDefaults] objectForKey:@"firstName"]?:@"John";
     _text2.text=[[NSUserDefaults standardUserDefaults] objectForKey:@"lastName"]?:@"Doe";
     _text3.text=[[NSUserDefaults standardUserDefaults] objectForKey:@"gender"]?:@"Male";
@@ -33,6 +34,14 @@
     [_gradView.layer insertSublayer:gradient atIndex:0];
 }
 
+
+-(void)viewWillAppear:(BOOL)animated{
+    [ZeTarget setCurrentScreen:self];
+    [_dobLabel setText:NSLocalizedString(@"dobLabel", nil)];
+    [_lnameLabel setText:NSLocalizedString(@"lName", nil)];
+    [_fnameLabel setText:NSLocalizedString(@"fName", nil)];
+    [_genderLabel setText:NSLocalizedString(@"genderLabel", nil)];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -40,6 +49,7 @@
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
     if (textField.tag==0) {
         [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"firstName"];
+        [ZeTarget logEventWithName:@"firstNameChanged"];
     }else if (textField.tag==1) {
         [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"lastName"];
     }else if (textField.tag==2) {
@@ -51,15 +61,22 @@
     [textField resignFirstResponder];
     return YES;
 }
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [ZeTarget setUserFirstName:_textField.text];
+    [ZeTarget setUserLastName:_text2.text];
+    [ZeTarget setUserGender:_text3.text];
+    
+}
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

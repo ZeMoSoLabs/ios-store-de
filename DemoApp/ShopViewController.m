@@ -35,8 +35,25 @@
     
     // Do any additional setup after loading the view.
 }
+-(void)setTextsForLabels{
+    [_bookDescLabel setText:NSLocalizedString(@"itemLabel2", nil)];
+    [_nikonDescLabel setText:NSLocalizedString(@"itemLabel3", nil)];
+    [_iphoneDescLabel setText:NSLocalizedString(@"itemLabel1", nil)];
+    
+    [_totLabel setText:NSLocalizedString(@"totalLabel", nil)];
+    [_subTotalLabel setText:NSLocalizedString(@"subTotalLabel", nil)];
+    [_shipLabel setText:NSLocalizedString(@"Shipping", nil)];
+    [_shopButtonLabel setText:NSLocalizedString(@"shopButtonLabel", nil)];
+    [_moreButtonLabel setText:NSLocalizedString(@"moreButtonLabel", nil)];
+    
+}
 -(void)viewWillAppear:(BOOL)animated{
+    
     [super viewWillAppear:animated];
+    [ZeTarget setCurrentScreen:self];
+    
+    [self setTextsForLabels];
+    
     UIActivityIndicatorView* spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     spinner.center = [[[UIApplication sharedApplication] keyWindow] center];
     [self.view addSubview:spinner];
@@ -59,12 +76,10 @@
     [_nikonCamQty setText:@"00"];
     
     if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"purchase"] isEqualToString:@"purchased"]) {
-       UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Purchase Successful" message:@"Thank you for purchasing with us" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"485", nil) message:@"Thank you for purchasing with us" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
         [alert show];
         [[NSUserDefaults standardUserDefaults] setObject:@"not Purchase" forKey:@"purchase"];
         
-    }else{
-        [ZeTarget setCurrentScreen:@"AppOpen"];
     }
     NSAttributedString * title1 =
     [[NSAttributedString alloc] initWithString:@"$699.99"
@@ -152,17 +167,18 @@
         [_badgeLabel setHidden:YES];
     }
     [_totalLabel setText:[NSString stringWithFormat:@"$%.02f",total]];
+    
 }
 
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

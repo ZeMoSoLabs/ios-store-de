@@ -26,8 +26,18 @@
     [[NSUserDefaults standardUserDefaults] setObject:@"purchased" forKey:@"purchase"];
     
 }
+-(void)viewWillAppear:(BOOL)animated{
+    [ZeTarget setCurrentScreen:self];
+    [_addrLabel setText:NSLocalizedString(@"AddrLabel", nil)];
+    [_payLabel setText:NSLocalizedString(@"payLabel", nil)];
+    [_payNowButton setTitle:NSLocalizedString(@"payNowLabel", nil) forState:UIControlStateNormal];
+    [_compLabel setText:NSLocalizedString(@"compLabel", nil)];
+    [_cardDetLabel setText:NSLocalizedString(@"cardDetLabel", nil)];
+    [_cardSubDetLabel setText:NSLocalizedString(@"cardDetSubLabel", nil)];
+}
 - (IBAction)payNowTapped:(id)sender {
-    [ZeTarget logPurchaseWithGrandTotal:@530];
+    // logs purchase completed event to sdk. Amounted is randomly generated for this demo app. Actual values in your app can be used to segment users.
+    [ZeTarget logPurchaseWithGrandTotal:@(arc4random_uniform(500))];
     [self performSegueWithIdentifier:@"payNowSegue" sender:self];
 }
 

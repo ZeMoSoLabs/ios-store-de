@@ -35,6 +35,7 @@
         return;
     }
  [[NSUserDefaults standardUserDefaults] setObject:@"ZemosoL" forKey:@"loginId"];
+    [self performSegueWithIdentifier:@"shopView" sender:self];
     
 }
 

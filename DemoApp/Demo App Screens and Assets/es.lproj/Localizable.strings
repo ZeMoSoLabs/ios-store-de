@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  DemoApp
+
+  Created by Praveen Yadav on 10/27/15.
+  Copyright © 2015 zemoso. All rights reserved.
+*/
+/*
+ Localizable.strings
+ Created by Praveen Yadav on 10/1/15.
+ Copyright (c) 2015 zemoso. All rights reserved.
+ */
+
+
+"485" = "Purchase Successful";
+
+//SplashView Controller
+"continueButton" = "CONTINUE";
+//ProfileViewController
+"profileLabel"="Profile";
+"lName"="Last Name";
+"fName"="First Name";
+"genderLabel"="Gender";
+"dobLabel"="DOB";
+//ShopViewController
+"itemLabel1"="APPLE IPHONE 6";
+"itemLabel2"="STEAL LIKE AN…";
+"itemLabel3"="NIKON COOLPIX…";
+"subTotalLabel"="Subtotal";
+"shippingLabel"="Shipping";
+"totalLabel"="Total";
+"shopButtonLabel"="Shop";
+"moreButtonLabel"="More";
+//Pay View Controller(ViewController)
+"AddrLabel"="ADDRESS";
+"payLabel"="PAYMENT";
+"compLabel"="COMPLETE";
+"cardDetLabel"="CARD DETAILS";
+"cardDetSubLabel"="Enter your debit or credit card details.";
+"payNowLabel"="PAY NOW";

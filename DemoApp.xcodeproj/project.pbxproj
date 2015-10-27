@@ -102,7 +102,8 @@
 		93D1AD331BDE3B8F00851588 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D1AD261BDE3B8F00851588 /* iTunesArtwork@2x.png */; settings = {ASSET_TAGS = (); }; };
 		93D1AD341BDE3B8F00851588 /* iTunesArtwork@2x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D1AD271BDE3B8F00851588 /* iTunesArtwork@2x@2x.png */; settings = {ASSET_TAGS = (); }; };
 		93D1AD351BDE3B8F00851588 /* iTunesArtwork@2x@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D1AD281BDE3B8F00851588 /* iTunesArtwork@2x@3x.png */; settings = {ASSET_TAGS = (); }; };
-		93D1AF4E1BDF4C2B00851588 /* libzetarget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D1AF4D1BDF4C2B00851588 /* libzetarget.a */; settings = {ASSET_TAGS = (); }; };
+		93D1AF681BDF787A00851588 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93D1AF6A1BDF787A00851588 /* Localizable.strings */; };
+		93D1AF6F1BDF7B5100851588 /* libzetarget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D1AF6E1BDF7B5100851588 /* libzetarget.a */; settings = {ASSET_TAGS = (); }; };
 		BF76E7BA446B1F97CC78F582 /* libPods-DemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFA661F45A6117BCC532339 /* libPods-DemoApp.a */; };
 /* End PBXBuildFile section */
 
@@ -224,9 +225,12 @@
 		93D1AD261BDE3B8F00851588 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		93D1AD271BDE3B8F00851588 /* iTunesArtwork@2x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x@2x.png"; sourceTree = "<group>"; };
 		93D1AD281BDE3B8F00851588 /* iTunesArtwork@2x@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x@3x.png"; sourceTree = "<group>"; };
-		93D1AF4D1BDF4C2B00851588 /* libzetarget.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzetarget.a; sourceTree = "<group>"; };
-		93D1AF4F1BDF4CE600851588 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
-		93D1AF501BDF4CE600851588 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		93D1AF651BDF74B600851588 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		93D1AF691BDF787A00851588 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		93D1AF6B1BDF788C00851588 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		93D1AF6C1BDF788C00851588 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		93D1AF6D1BDF788C00851588 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		93D1AF6E1BDF7B5100851588 /* libzetarget.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzetarget.a; sourceTree = "<group>"; };
 		ACFA661F45A6117BCC532339 /* libPods-DemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -236,7 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93280ADD1B450924002FC789 /* CoreLocation.framework in Frameworks */,
-				93D1AF4E1BDF4C2B00851588 /* libzetarget.a in Frameworks */,
+				93D1AF6F1BDF7B5100851588 /* libzetarget.a in Frameworks */,
 				93280ADB1B45091B002FC789 /* libsqlite3.dylib in Frameworks */,
 				BF76E7BA446B1F97CC78F582 /* libPods-DemoApp.a in Frameworks */,
 			);
@@ -334,6 +338,7 @@
 			isa = PBXGroup;
 			children = (
 				9317549D1B4253600041DDCE /* Assets */,
+				93D1AF6A1BDF787A00851588 /* Localizable.strings */,
 			);
 			path = "Demo App Screens and Assets";
 			sourceTree = "<group>";
@@ -474,7 +479,7 @@
 		937E07B71BC7924A00DA9D5F /* Zetarget Release */ = {
 			isa = PBXGroup;
 			children = (
-				93D1AF4D1BDF4C2B00851588 /* libzetarget.a */,
+				93D1AF6E1BDF7B5100851588 /* libzetarget.a */,
 				937E07B81BC7924A00DA9D5F /* include */,
 			);
 			path = "Zetarget Release";
@@ -596,6 +601,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 9317546A1B4252170041DDCE;
 			productRefGroup = 931754741B4252170041DDCE /* Products */;
@@ -635,6 +641,7 @@
 				9317558D1B4253600041DDCE /* Icn_Unselected_Level@3x.png in Resources */,
 				9317555B1B4253600041DDCE /* Btn_select_Paypal@0.5x.png in Resources */,
 				9317555E1B4253600041DDCE /* Icn_Selected_Level@0.5x.png in Resources */,
+				93D1AF681BDF787A00851588 /* Localizable.strings in Resources */,
 				93D1AD2D1BDE3B8F00851588 /* Icon-60.png in Resources */,
 				931755581B4253600041DDCE /* Btn_Checkout@0.5x.png in Resources */,
 				931755881B4253600041DDCE /* Btn_select_Paypal@3x.png in Resources */,
@@ -781,7 +788,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				931754811B4252170041DDCE /* Base */,
-				93D1AF4F1BDF4CE600851588 /* fr */,
+				93D1AF651BDF74B600851588 /* en */,
+				93D1AF6B1BDF788C00851588 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -790,9 +798,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				931754861B4252170041DDCE /* Base */,
-				93D1AF501BDF4CE600851588 /* fr */,
+				93D1AF6C1BDF788C00851588 /* es */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		93D1AF6A1BDF787A00851588 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D1AF691BDF787A00851588 /* en */,
+				93D1AF6D1BDF788C00851588 /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

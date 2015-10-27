@@ -285,13 +285,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="addrLabel" destination="rbX-sP-hKk" id="OXA-Ju-Yix"/>
+                        <outlet property="cardDetLabel" destination="4Se-iI-skr" id="laZ-HN-2MD"/>
                         <outlet property="cardDetailsView" destination="iWt-G2-9k1" id="CQ5-MZ-RMR"/>
+                        <outlet property="cardNumLabel" destination="NCY-bt-bi1" id="oDv-nO-G4i"/>
+                        <outlet property="cardSubDetLabel" destination="3Wc-tj-agm" id="gWL-Hi-E03"/>
+                        <outlet property="compLabel" destination="bDY-IL-wRV" id="m4E-25-hc9"/>
+                        <outlet property="payLabel" destination="eIA-R1-o6j" id="yyO-Y4-oeR"/>
+                        <outlet property="payNowButton" destination="laT-8T-HCn" id="RaZ-Ky-jY6"/>
                         <segue destination="teG-h8-9oW" kind="modal" identifier="payNowSegue" id="1aq-Qx-jXJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4eF-pW-Plr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="223" y="199"/>
+            <point key="canvasLocation" x="301" y="517"/>
         </scene>
         <!--Shop View Controller-->
         <scene sceneID="qPg-ei-YTO">
@@ -704,15 +711,23 @@
                         <outlet property="actionButton" destination="cMG-sl-Xf0" id="TtG-aZ-Of2"/>
                         <outlet property="actionViewLabel" destination="Osh-v1-bAa" id="fQv-Ke-jfW"/>
                         <outlet property="badgeLabel" destination="leE-zv-xRQ" id="j41-eU-D5o"/>
+                        <outlet property="bookDescLabel" destination="Uek-SJ-fB3" id="VQf-lN-PDN"/>
+                        <outlet property="iphoneDescLabel" destination="yfj-ZT-Xcl" id="gNW-rn-qiS"/>
                         <outlet property="iphoneQty" destination="R4P-qg-lie" id="cWj-wh-bQ4"/>
                         <outlet property="labelStrike1" destination="dek-o8-6rS" id="CVj-HN-hiT"/>
                         <outlet property="labelStrike2" destination="bu9-Ff-4sg" id="t20-gM-agL"/>
                         <outlet property="labelStrike3" destination="mN5-nV-hKZ" id="FSW-db-1oZ"/>
+                        <outlet property="moreButtonLabel" destination="02q-8A-YpW" id="Nz2-HX-uQD"/>
                         <outlet property="nikonCamQty" destination="5ae-M6-Xz8" id="0co-9z-AIs"/>
+                        <outlet property="nikonDescLabel" destination="NbO-zp-sJI" id="CDD-zl-KEU"/>
+                        <outlet property="shipLabel" destination="Z73-wl-U4Z" id="f7x-MR-dVL"/>
                         <outlet property="shippingAmountLabel" destination="hHG-zk-0FF" id="TGN-K0-mzS"/>
+                        <outlet property="shopButtonLabel" destination="xw1-Xv-YXN" id="AXA-60-d9f"/>
                         <outlet property="stealLikeBookQty" destination="bul-kz-fTM" id="4ro-hX-scj"/>
                         <outlet property="subTotal" destination="Cjf-RN-QMI" id="kVS-1P-zFv"/>
+                        <outlet property="subTotalLabel" destination="dKr-Uh-3f8" id="r8U-C3-AeL"/>
                         <outlet property="tabView" destination="Bea-Z6-dth" id="8Nd-P1-CZh"/>
+                        <outlet property="totLabel" destination="4oD-uk-nA7" id="jBL-sv-FdY"/>
                         <outlet property="totalLabel" destination="Mzz-rd-Cdn" id="OuH-1q-wUb"/>
                     </connections>
                 </viewController>
@@ -919,7 +934,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="dobLabel" destination="sd6-g0-irV" id="zyi-Xa-fKW"/>
+                        <outlet property="fnameLabel" destination="cOu-nO-3lP" id="ibA-Fd-n69"/>
+                        <outlet property="genderLabel" destination="Ku0-WG-sEv" id="Em0-e8-woT"/>
                         <outlet property="gradView" destination="fDr-fQ-F2C" id="6VW-7s-mba"/>
+                        <outlet property="lnameLabel" destination="8C6-Bb-lHk" id="XOU-SH-txr"/>
                         <outlet property="text2" destination="Cg1-34-dWz" id="SN1-V5-Wq4"/>
                         <outlet property="text3" destination="AQm-10-7X1" id="Uff-jl-C4B"/>
                         <outlet property="text4" destination="Ns9-KZ-bce" id="ypB-g7-Exa"/>
@@ -949,7 +968,7 @@
         <image name="icon-edit.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1aq-Qx-jXJ"/>
         <segue reference="vGI-Op-266"/>
+        <segue reference="Da1-k1-rL5"/>
     </inferredMetricsTieBreakers>
 </document>

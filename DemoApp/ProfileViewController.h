@@ -15,4 +15,8 @@
 
 @property (strong, nonatomic) IBOutlet UITextField *text4;
 @property (strong, nonatomic) IBOutlet UIView *gradView;
+@property (strong, nonatomic) IBOutlet UILabel *dobLabel;
+@property (strong, nonatomic) IBOutlet UILabel *genderLabel;
+@property (strong, nonatomic) IBOutlet UILabel *lnameLabel;
+@property (strong, nonatomic) IBOutlet UILabel *fnameLabel;
 @end
