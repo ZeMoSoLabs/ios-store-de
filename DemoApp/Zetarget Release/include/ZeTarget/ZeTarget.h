@@ -250,5 +250,9 @@
  * @param urlString url that sdk will target
  */
 +(void)setZetargetUrl:(NSString*)urlString;
+/*!
+ * @discussion Call this method to get current version of zetarget sdk.
+ */
++(NSString*)getZetargetSDKVersion;
 
 @end

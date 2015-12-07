@@ -25,6 +25,7 @@
     [ZeTarget setZetargetUrl:@"http://devapi.zetarget.com"];
     [ZeTarget instantiateAPIInDebugModeWithKey:@"ZemosoL"];
     [[NSUserDefaults standardUserDefaults] setObject:@"not Purchase" forKey:@"purchase"];
+    
 //
     if ([[NSUserDefaults standardUserDefaults] objectForKey:@"loginId"]) {
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
