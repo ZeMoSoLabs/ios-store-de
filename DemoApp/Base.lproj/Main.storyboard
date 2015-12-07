@@ -60,7 +60,7 @@
         <!--View Controller-->
         <scene sceneID="1kJ-DB-QaE">
             <objects>
-                <viewController id="yFc-VH-hk6" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="purchaseView" id="yFc-VH-hk6" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="shp-xp-duW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -570,7 +570,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="vpD-XC-Hdr" kind="modal" id="gx0-m1-UsG"/>
+                                                    <action selector="showProfileView:" destination="teG-h8-9oW" eventType="touchUpInside" id="4tL-af-Wad"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="02q-8A-YpW">
@@ -777,9 +777,6 @@
                                         <state key="normal" title="Button" image="Icn_Shop.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="teG-h8-9oW" kind="modal" id="k5h-yg-QjM"/>
-                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shop" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0ZH-zl-uyv">
                                         <rect key="frame" x="50" y="34" width="34" height="16"/>
@@ -947,7 +944,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Reb-wM-a0o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1139" y="129"/>
+            <point key="canvasLocation" x="1437" y="34"/>
         </scene>
     </scenes>
     <resources>
@@ -968,7 +965,7 @@
         <image name="icon-edit.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vGI-Op-266"/>
-        <segue reference="Da1-k1-rL5"/>
+        <segue reference="jDu-IE-HF4"/>
+        <segue reference="1aq-Qx-jXJ"/>
     </inferredMetricsTieBreakers>
 </document>

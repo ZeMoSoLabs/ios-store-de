@@ -10,6 +10,8 @@
 	<string>DemoApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>3523663E89C720B5C18D51200BFF121D36C43AA8</key>
+		<string>https://github.com/ZeMoSoLabs/ios-store-de</string>
 		<key>68015D5A5D8C34EB55FBD44A3026C02D869F1A4A</key>
 		<string>https://github.com/ZeMoSoLabs/ZeTarget-Demo-ios.git</string>
 		<key>CADE98B77D383FB1559A2D9C0318E475B6469F19</key>
@@ -19,17 +21,19 @@
 	<string>DemoApp.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>68015D5A5D8C34EB55FBD44A3026C02D869F1A4A</key>
+		<key>3523663E89C720B5C18D51200BFF121D36C43AA8</key>
 		<string>..</string>
+		<key>68015D5A5D8C34EB55FBD44A3026C02D869F1A4A</key>
+		<string>../../DemoApp</string>
 		<key>CADE98B77D383FB1559A2D9C0318E475B6469F19</key>
 		<string>../../z-iOS-SDK</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ZeMoSoLabs/ZeTarget-Demo-ios.git</string>
+	<string>https://github.com/ZeMoSoLabs/ios-store-de</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>68015D5A5D8C34EB55FBD44A3026C02D869F1A4A</string>
+	<string>3523663E89C720B5C18D51200BFF121D36C43AA8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -39,6 +43,14 @@
 			<string>68015D5A5D8C34EB55FBD44A3026C02D869F1A4A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DemoApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3523663E89C720B5C18D51200BFF121D36C43AA8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-store-de</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

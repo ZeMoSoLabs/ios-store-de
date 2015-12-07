@@ -23,7 +23,7 @@
     // Override point for customization after application launch.
     // Replace your api key with "ZemosoL" to get started
     [ZeTarget setZetargetUrl:@"http://devapi.zetarget.com"];
-    [ZeTarget instantiateAPIWithKey:@"ZemosoL"];
+    [ZeTarget instantiateAPIInDebugModeWithKey:@"ZemosoL"];
     [[NSUserDefaults standardUserDefaults] setObject:@"not Purchase" forKey:@"purchase"];
 //
     if ([[NSUserDefaults standardUserDefaults] objectForKey:@"loginId"]) {

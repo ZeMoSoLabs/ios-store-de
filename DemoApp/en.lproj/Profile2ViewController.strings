@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "DOB"; ObjectID = "0vV-NU-UC5"; */
+"0vV-NU-UC5.text" = "DOB";
+
+/* Class = "UITextField"; text = "John"; ObjectID = "22x-cC-sKD"; */
+"22x-cC-sKD.text" = "John";
+
+/* Class = "UITextField"; text = "Doe"; ObjectID = "Uj3-8q-GyC"; */
+"Uj3-8q-GyC.text" = "Doe";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "WUx-m9-Xym"; */
+"WUx-m9-Xym.text" = "Profile";
+
+/* Class = "UILabel"; text = "Last Name"; ObjectID = "Wcf-ZE-EHz"; */
+"Wcf-ZE-EHz.text" = "Last Name";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dTB-im-ISc"; */
+"dTB-im-ISc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "First Name"; ObjectID = "dfL-Og-Jb8"; */
+"dfL-Og-Jb8.text" = "First Name";
+
+/* Class = "UILabel"; text = "Shop"; ObjectID = "dus-El-Vq7"; */
+"dus-El-Vq7.text" = "Shop";
+
+/* Class = "UITextField"; text = "Male"; ObjectID = "eWd-ty-gKY"; */
+"eWd-ty-gKY.text" = "Male";
+
+/* Class = "UITextField"; text = "20/08/1986"; ObjectID = "fVu-uW-ezs"; */
+"fVu-uW-ezs.text" = "20/08/1986";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hka-df-TV3"; */
+"hka-df-TV3.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "rdi-Oo-1kO"; */
+"rdi-Oo-1kO.text" = "Gender";
+
+/* Class = "UILabel"; text = "More"; ObjectID = "une-V0-f3N"; */
+"une-V0-f3N.text" = "More";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xMX-5B-F9W"; */
+"xMX-5B-F9W.normalTitle" = "Button";

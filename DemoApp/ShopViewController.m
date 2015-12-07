@@ -9,6 +9,7 @@
 #import "ShopViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import "ZeTarget.h"
+#import "Profile2ViewController.h"
 
 @interface ShopViewController ()
 {
@@ -168,6 +169,10 @@
     }
     [_totalLabel setText:[NSString stringWithFormat:@"$%.02f",total]];
     
+}
+- (IBAction)showProfileView:(id)sender {
+    Profile2ViewController* profileView2 = [[Profile2ViewController alloc] init];
+    [self presentViewController:profileView2 animated:NO completion:nil];
 }
 
 
