@@ -36,6 +36,7 @@
         [self.window makeKeyAndVisible];
         self.window.rootViewController =shopViewController;
         //Register for push notifications using zetarget SDK method.
+        
         [ZeTarget registerForPushNotifications];
     }
     return YES;
