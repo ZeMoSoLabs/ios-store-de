@@ -1,7 +1,7 @@
 //
 //  ZeTarget.h
 //  
-//  Version:0.3
+//
 //  Created by Zemoso on 20/01/15.
 //  Copyright (c) 2015 Zemoso. All rights reserved.
 //
@@ -254,5 +254,11 @@
  * @discussion Call this method to get current version of zetarget sdk.
  */
 +(NSString*)getZetargetSDKVersion;
+
+/*!
+ * @discussion Call this method to enable the microphone in video recording.
+ * @param  enabled , Default is disabled.
+ */
++(void)recordWithMicrophoneEnabled: (BOOL) enabled;
 
 @end
